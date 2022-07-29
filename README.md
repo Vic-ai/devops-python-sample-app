@@ -10,6 +10,8 @@ This is a very simple python app used as part of our devops technical interview.
 
 ## Configuration
 The following environment variables are required:
+Note: The values below for host & port and just an example.
+
 ```bash
 HOST=0.0.0.0
 PORT=8080
