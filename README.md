@@ -14,6 +14,6 @@ Note: The values below for host & port are just an example.
 
 ```bash
 HOST=1.2.3.4
-PORT=5678g
+PORT=5678
 SECRET=tIdiDuoYsnoitalutargnoC
 ```
