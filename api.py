@@ -9,8 +9,8 @@ from rich.console import Console
 def response():
     s = os.getenv("SECRET")
     c = " ".join(re.sub( r"([A-Z])", r" \1", s[::-1]).split())
-
     console = Console()
+
     with console.capture() as capture:
         console.print(f":tada: {c} :tada:")
     r = capture.get()
@@ -18,4 +18,4 @@ def response():
 
 
 if __name__ == "__main__":    
-    run(host='0.0.0.0', port=8080, debug=True)
+    run(host=os.getenv("HOST"), port=os.getenv("PORT"), debug=True)

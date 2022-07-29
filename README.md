@@ -9,7 +9,9 @@ This is a very simple python app used as part of our devops technical interview.
 - Docker
 
 ## Configuration
-This app is dependent on having the `SECRET` environment variable set to `tIdiDuoYsnoitalutargnoC`
-
-## Build
-`docker build . -t vicai/devops-python-sample-app:latest`
+The following environment variables are required:
+```bash
+HOST=0.0.0.0
+PORT=8080
+SECRET=tIdiDuoYsnoitalutargnoC
+```
