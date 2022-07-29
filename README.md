@@ -13,7 +13,7 @@ The following environment variables are required:
 Note: The values below for host & port and just an example.
 
 ```bash
-HOST=0.0.0.0
-PORT=8080
+HOST=
+PORT=
 SECRET=tIdiDuoYsnoitalutargnoC
 ```
